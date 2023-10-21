@@ -1,0 +1,26 @@
+[
+     {
+          "id": 1,
+          "titulo": "Super Martillo",
+          "codigo": "001",
+          "precio": 800
+     },
+     {
+          "id": 2,
+          "titulo": "clavos",
+          "codigo": "002",
+          "precio": 80
+     },
+     {
+          "id": 4,
+          "titulo": "tornillos",
+          "codigo": "004",
+          "precio": 80
+     },
+     {
+          "id": 5,
+          "titulo": "pala",
+          "codigo": "003",
+          "precio": 80
+     }
+]
