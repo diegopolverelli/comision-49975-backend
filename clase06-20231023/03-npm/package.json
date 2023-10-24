@@ -1,0 +1,20 @@
+{
+  "name": "03-npm",
+  "version": "1.0.0",
+  "description": "Proyecto prueba...",
+  "main": "04-calculadoraEdad.js",
+  "scripts": {
+    "start": "node ./04-calculadoraEdad.js",
+    "dev": "node ./04-calculadoraEdad.js",
+    "dev1": "node ./04-calculadoraEdad.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Comision 55565",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+     {
+          "id": 1,
+          "nombre": "Mario",
+          "email": "msantos@test.com",
+          "password": "d013e205bf27ead821912e10ac7f633b5d9bb053f4e5832263a0e540091b52a3"
+     },
+     {
+          "id": 2,
+          "nombre": "Emilio",
+          "email": "eravena@test.com",
+          "password": "00e991d4dacb3f1d46541948564df8ef4f90652ff007e3b436ce18befd8b86ec"
+     },
+     {
+          "id": 3,
+          "nombre": "Gabriel",
+          "email": "gmedina@test.com",
+          "password": "da837f30386c103011c24109901e8adc1a4b4ece527d8d53a41b842608b4c413"
+     },
+     {
+          "id": 4,
+          "nombre": "Pablo",
+          "email": "plampone@test.com",
+          "password": "77a322dbfc9813de177a635075e60bf897e6f0d1f0afcc05438b9759541d8564"
+     }
+]
