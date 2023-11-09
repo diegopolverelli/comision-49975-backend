@@ -1,0 +1,36 @@
+<h2>Heroes</h2>
+<hr>
+
+{{!-- las estructuras de control son if (condicional)
+y each (para recorrer arrays).
+La sintáxis es: doble llave, y # para la apertura, y / para el cierre
+Tenemos entonces {{#if variable}} que podrá tener un {{else}} y siempre lleva {{/if}}
+y por otro lado {{#each variableArrayParaRecorrer}}, que llevará su {{/each}}
+Dentro del #each - /each, para referirse al elemento del array que se está
+recorriendo en un momento dado, usamos this. En el ejemplo que está a continuación, 
+como heroes es un array de objetos, se usa this.name, o this.alias (this.propiedad)
+Si fuera un array plano, por ejemplo un numeros=[1,2,3,4,5], alcanzaría con this para ir
+mostrando cada valor
+ --}}
+{{#if detalle}}   
+    {{#each heroes}} 
+        <div>
+            <h4>{{this.name}}</h4>
+            <p>Alias: {{this.alias}} - Publica: {{this.publisher}}</p>
+            <hr>
+        </div>
+    {{/each}}
+{{else}}
+    <ul>
+        {{#each heroes}}
+            <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+
+
+
+<script src="assets/js/heroes.js"></script>
+
+

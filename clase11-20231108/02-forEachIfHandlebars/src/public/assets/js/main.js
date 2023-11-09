@@ -1,0 +1,1 @@
+console.log('este script corre siempre (para todos)')
