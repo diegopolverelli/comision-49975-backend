@@ -1,0 +1,47 @@
+/* Reset de estilos para eliminar márgenes y padding predeterminados */
+body, h1, h2, p, div, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general para el cuerpo de la página */
+body {
+    background-color: #f4f4f4; /* Color de fondo */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente predeterminado */
+    color: #333; /* Color de letra predeterminado */
+}
+
+/* Estilo para las etiquetas de encabezado h2 */
+h2 {
+    color: #007BFF; /* Color de letra para h2 */
+    text-align: center; /* Centrar el texto */
+}
+
+div {
+    text-align: center; /* Centrar el contenido del div */
+}
+
+/* Estilo para la clase "mensaje" */
+.mensaje {
+    background-color: #f2a5a5; /* Color de fondo */
+    display: inline-block; /* Hace que el contenedor se ajuste al contenido */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    color: #28a745; /* Color de letra para la clase "mensaje" */
+    border: 1px solid #28a745; /* Borde de 1px sólido con color verde */
+    padding: 8px; /* Espaciado interno para el contenido del mensaje */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centrar el texto dentro del contenedor */
+    margin: auto; /* Centrar el contenedor en la página */
+}
+
+/* Estilo para el enlace */
+a {
+    color: #007BFF; /* Color del enlace no visitado */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón sobre el enlace */
+}
