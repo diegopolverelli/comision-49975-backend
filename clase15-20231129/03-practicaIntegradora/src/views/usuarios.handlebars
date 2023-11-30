@@ -1,0 +1,24 @@
+<h2>Usuarios Page:</h2>
+<hr>
+
+<form action="">
+    <div id="mensaje"></div>
+    <input type="text" name="nombre" id="nombre" placeholder="nombre">
+    <input type="email" name="email" id="email" placeholder="correo electrónico">
+    <br>
+    <input type="submit" value="Registrar" id="btnSubmit">
+</form>
+
+<ul>
+    {{#each usuarios}}
+        <li>
+            {{this.nombre}} - Correo electrónico: {{this.email}}
+        </li>
+    {{/each}}
+</ul>
+
+<br><br>
+<a href="/">Home</a>
+
+
+<script src="js/usuarios.js"></script>
