@@ -1,0 +1,25 @@
+<h2>Usuarios:</h2>
+
+<ul>
+    {{#each usuarios}}
+        <li>
+            {{this.code}}) {{this.first_name}} {{this.last_name}} - <strong>Correo electrónico:</strong> <i>{{this.email}}</i>
+        </li>
+    {{/each}}
+</ul>
+<br>
+<a href="/?pagina=1">Pág.1</a>
+
+{{#if hasPrevPage}}
+    <a href="/?pagina={{prevPage}}">Pág.Ant.</a>
+{{else}}
+    <span>Pág.Ant.</span>
+{{/if}}
+
+{{#if hasNextPage}}
+    <a href="/?pagina={{nextPage}}">Pág.Sig.</a>
+{{else}}
+    <span>Pág.Sig.</span>
+{{/if}}
+
+<a href="/?pagina={{totalPages}}">Ult.Pág.</a>
