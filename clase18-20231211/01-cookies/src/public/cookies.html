@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cookies</h2>
+
+    <button onclick="crear()">Crear</button>
+    <button onclick="leer()">Leer</button>
+    <button onclick="borrar()">Borrar</button>
+
+    <script>
+        const crear=()=>{
+            console.log('ingreso')
+            document.cookie="nombre=Juan Carlos;"
+            document.cookie="apellido=Lopez; Max-Age= 5;"
+
+        }
+
+        const leer=()=>{
+            let cookies=document.cookie
+            console.log(cookies)
+        }
+
+        const borrar=()=>{
+            document.cookie="nombre=; Max-Age=0"
+            document.cookie="apellido=; Max-Age=0;"
+
+        }
+    </script>
+</body>
+</html>
