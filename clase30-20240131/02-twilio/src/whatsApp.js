@@ -1,6 +1,7 @@
 import twilio from 'twilio'
-const accountSid = 'ACd4b330aed4835e8d8f2af7540afec8da';
-const authToken = 'd7a60432abaeaf4d017cf5e51b25f13e';
+const accountSid = 'accountSid de Twilio';
+const authToken = 'toket de Twilio';
+
 // const client = require('twilio')(accountSid, authToken);
 
 const client=twilio(accountSid, authToken)
