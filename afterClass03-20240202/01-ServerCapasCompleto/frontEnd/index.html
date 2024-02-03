@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ordenes de pedido</title>
+</head>
+<body>
+    <h2>Pedidos:</h2>
+    <hr>
+    <button onclick="buscar()">Buscar Pedidos</button>
+    <div id="ordenes"></div>
+
+    <script>
+        const buscar=async()=>{
+            document.getElementById("ordenes").innerHTML=""
+
+            let respuesta=await fetch("http://localhost:3000/api/ordenes")
+            if(respuesta.status===200){
+                let {ordenes}=await respuesta.json()
+                console.log(ordenes)
+
+                ordenes.forEach(orden=>{
+                    let numero=document.createElement("h3")
+                    numero.innerHTML=`Numero: ${orden.numero}`
+                    let cliente=document.createElement("h4")
+                    cliente.innerHTML=`Cliente: ${orden.usuario.nombre}`
+                    let local=document.createElement("h4")
+                    local.innerHTML=`Local: ${orden.negocio.nombre}`
+                    let pedido=document.createElement("ul")
+                    let ulHtml=""
+                    orden.productos.forEach(item=>{
+                        ulHtml+=`<li>${item.descrip} - cantidad: ${item.cantidad} - precio: ${item.precio} - subtotal: ${item.cantidad*item.precio}</li>`
+                    })
+                    pedido.innerHTML=ulHtml
+                    let total=document.createElement("h3")
+                    total.innerHTML=`TOTAL: $${orden.total}`
+                    let hr=document.createElement("hr")
+                
+                    document.getElementById("ordenes").append(numero, cliente, local, pedido, total, hr)
+
+                })
+            }else{
+                document.getElementById("ordenes").innerHTML="Error al recuperar ordenes de pedido. Reintente en algunos minutos... "
+            }
+        }
+    </script>
+</body>
+</html>
