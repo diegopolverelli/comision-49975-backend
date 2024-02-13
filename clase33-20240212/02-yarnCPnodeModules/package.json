@@ -1,0 +1,8 @@
+{
+  "name": "02-yarnCPnodeModules",
+  "type": "module",
+  "packageManager": "yarn@4.1.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
