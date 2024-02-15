@@ -1,0 +1,10 @@
+{"level":"error","message":"error log - No se completo la propiedad name al dar de alta un heroe"}
+{"level":"error","message":"error log - No se completo la propiedad name al dar de alta un heroe"}
+{"level":"error","message":{"detalle":"error log - Se han ingresado propiedades invalidas","props":{"name":"Robin","publisher":"DC","vuela":true}}}
+{"level":"error","message":"El heroe Robin ya existe en DB"}
+{"level":"error","message":"El heroe Robin ya existe en DB","timestamp":"2024-02-15T00:29:23.169Z"}
+{"level":"error","message":"El heroe Robin ya existe en DB","timestamp":"2024-02-15T00:29:25.586Z"}
+{"level":"error","message":"El heroe Robin ya existe en DB","timestamp":"2024-02-15T00:29:26.678Z"}
+{"level":"error","message":"El heroe Robin ya existe en DB","timestamp":"2024-02-15T00:31:21.037Z"}
+{"level":"error","message":"El heroe Robin ya existe en DB","timestamp":"2024-02-15T00:31:22.422Z"}
+{"level":"error","message":{"detalle":"error log - Se han ingresado propiedades invalidas","props":{"name":"Robin","publisher":"DC","vuelaVuela":false}},"timestamp":"2024-02-15T00:31:39.703Z"}
