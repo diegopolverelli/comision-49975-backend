@@ -1,0 +1,48 @@
+<h2>Productos:</h2>
+<hr>
+<h3>Carrito de {{mayuscula usuario.nombre}}; id: {{carrito}}</h3>
+<ul>
+    {{#each productos}}
+        <li>
+            {{this.descrip}} - precio: {{this.precio}} <button onclick="comprar('{{this._id}}', '{{../usuario.carrito_id}}')">Comprar</button>
+        </li>
+    {{/each}}
+
+    <input type="text" hidden id="carritoId" value="{{usuario.carrito_id}}">
+
+</ul>
+
+<br>
+<p>{{{resaltar "Pagina de productos"}}}</p>
+<br>
+<hr>
+<a href="/api/carritos/{{usuario.carrito_id}}">Ver Carrito</a>
+
+<script src="js/productos.js"></script>
+
+<script>
+    let prueba={{{carrito}}}
+    //alert(prueba)
+
+</script>
+
+{{!-- <script>
+    const comprar=async(idProducto, idCarrito)=>{
+
+        let prueba=document.getElementById("carritoId")
+        console.log("Carrito tomado desde imput oculto:",prueba.value)
+
+        // let prueba="'"+{{usuario.carrito_id}}+"'"
+        // let prueba1={{usuario.carrito_id}}
+        // console.log("prueba y prueba1:",prueba, prueba1)
+
+        console.log(idProducto, idCarrito)
+        let respuesta=await fetch(
+            `/api/carritos/${idCarrito}/producto/${idProducto}`,
+            {method:"post"}
+        )
+        let datos=await respuesta.json()
+        console.log(datos)
+    }
+
+</script> --}}
