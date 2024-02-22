@@ -1,0 +1,40 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 10
+      arrivalRate: 5
+      name: "Fase 1: prueba normal"
+    - duration: 10
+      arrivalRate: 5
+      rampTo: 15
+      name: "Fase 2: prueba estres"
+    - duration: 10
+      arrivalRate: 15
+      rampTo: 5
+      name: "Fase 3: prueba normal"
+scenarios:
+  - name: "Prueba registro / login"
+    flow:
+      - get:
+          url: "/usuario"
+          capture:
+            - json: "$.usuario.nombre"
+              as: "nombre"
+            - json: "$.usuario.apellido"
+              as: "apellido"
+            - json: "$.usuario.email"
+              as: "email"
+            - json: "$.usuario.password"
+              as: "password"
+      - post:
+          url: "/api/sessions/registro"
+          json:
+            nombre: "{{nombre}}"
+            apellido: "{{apellido}}"
+            email: "{{email}}"
+            password: "{{password}}"
+      - post:
+          url: "/api/sessions/login"
+          json:
+            email: "{{email}}"
+            password: "{{password}}"
