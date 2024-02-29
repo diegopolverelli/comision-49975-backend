@@ -1,0 +1,21 @@
+<h2>Repita su nueva contraseña:</h2>
+<hr>
+<form action="/api/sessions/recupero03" method="post">
+    <input type="password" name="password" id="password">
+    <input type="password" name="password2" id="password2">
+    <input type="text" name="token" id="token" hidden>
+    <br>
+    <input type="submit" value="Resetear">
+</form>
+
+<script>
+    let params=new URLSearchParams(window.location.search)
+    let token=params.get("token")
+    if(!token){
+        alert("error")
+    }else{
+        console.log(token)
+        let inputToken=document.getElementById("token")
+        inputToken.value=token
+    }
+</script>

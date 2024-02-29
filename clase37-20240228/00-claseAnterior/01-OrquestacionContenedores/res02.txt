@@ -1,0 +1,710 @@
+Test run id: th53h_m95d7xcckcqk8edk7h7m69hwj3wpf_ngeh
+Phase started: Prueba rendimiento Login / Registro (index: 0, duration: 10s) 21:22:48(-0300)
+
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario David Serrano Kanzaki
+Registro de usuario Francisco Ortiz Marrero
+Registro de usuario Benjam├¡n Arias de Urrutia
+Registro de usuario Jazmin Sanabria Ramos
+Registro de usuario Paola Gamez J├íquez
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Manuel Espinosa Navarro
+Registro de usuario Jos├® Emilio Zamarripa Medrano
+Creamos las variables para el usuario de prueba
+Registro de usuario David Loera Rojas
+Creamos las variables para el usuario de prueba
+Registro de usuario Roberto Ocasio Calder├│n
+Registro de usuario Nicol├ís Bonilla de Saucedo
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Florencia Alvarado Cedillo
+Creamos las variables para el usuario de prueba
+Registro de usuario Mariano Villag├│mez Altamirano
+Creamos las variables para el usuario de prueba
+Registro de usuario Gregorio Ornelas Trevi├▒o
+Registro de usuario Jose Daniel Apodaca Mayorga
+Registro de usuario Susana Cavazos Leiva
+Creamos las variables para el usuario de prueba
+Registro de usuario Claudia Brise├▒o Caraballo
+Login Benjamin_AriasdeUrrutia@hotmail.com
+Creamos las variables para el usuario de prueba
+Registro de usuario Alberto Rico Karen
+Creamos las variables para el usuario de prueba
+Login Paola_GamezJaquez40@corpfolder.com
+Creamos las variables para el usuario de prueba
+Login David_SerranoKanzaki@corpfolder.com
+Login Francisco_OrtizMarrero@nearbpo.com
+Registro de usuario Emmanuel D├ívila Tello
+Creamos las variables para el usuario de prueba
+Login Jazmin_SanabriaRamos81@gmail.com
+Registro de usuario Lizbeth Kanzaki B├íez
+Registro de usuario ├üngel Daniel Ojeda Calder├│n
+Login Manuel_EspinosaNavarro47@gmail.com
+Login David.LoeraRojas67@gmail.com
+Login JoseEmilio_ZamarripaMedrano26@hotmail.com
+Login Roberto.OcasioCalderon80@nearbpo.com
+Login Nicolas26@nearbpo.com
+Creamos las variables para el usuario de prueba
+Registro de usuario Pilar Jasso Linares
+--------------------------------------
+Metrics for period to: 21:22:50(-0300) (width: 0.599s)
+--------------------------------------
+
+http.codes.200: ................................................................ 5
+http.downloaded_bytes: ......................................................... 625
+http.request_rate: ............................................................. 10/sec
+http.requests: ................................................................. 10
+http.response_time:
+  min: ......................................................................... 237
+  max: ......................................................................... 475
+  mean: ........................................................................ 350.6
+  median: ...................................................................... 368.8
+  p95: ......................................................................... 391.6
+  p99: ......................................................................... 391.6
+http.responses: ................................................................ 5
+plugins.metrics-by-endpoint./usuario.codes.200: ................................ 5
+plugins.metrics-by-endpoint.response_time./usuario:
+  min: ......................................................................... 237
+  max: ......................................................................... 475
+  mean: ........................................................................ 350.6
+  median: ...................................................................... 368.8
+  p95: ......................................................................... 391.6
+  p99: ......................................................................... 391.6
+vusers.created: ................................................................ 5
+vusers.created_by_name.Sessions Flow (registro + login): ....................... 5
+
+
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Emiliano Le├│n N├íjera
+Registro de usuario Jos├® Kamal Khalid
+Registro de usuario Jos├® Emilio Villa Vargas
+Registro de usuario Jose Daniel Ocasio Galindo
+Login Florencia.AlvaradoCedillo@yahoo.com
+Login JoseDaniel.ApodacaMayorga@nearbpo.com
+Login Susana_CavazosLeiva@corpfolder.com
+Login Mariano68@gmail.com
+Login Gregorio56@gmail.com
+Creamos las variables para el usuario de prueba
+Registro de usuario Zoe Rodarte Lim├│n
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Jos├® Antonio Ayala Santana
+Creamos las variables para el usuario de prueba
+Registro de usuario Emmanuel Barrera de Quintero cruz
+Creamos las variables para el usuario de prueba
+Login Claudia19@gmail.com
+Registro de usuario Ana Luisa Miramontes M├írquez
+Login Alberto33@gmail.com
+Registro de usuario Jimena Vel├ízquez Ni├▒o
+Login Lizbeth_KanzakiBaez@corpfolder.com
+Login Emmanuel.DavilaTello55@yahoo.com
+Creamos las variables para el usuario de prueba
+Registro de usuario Adela Col├│n Maga├▒a
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Clemente T├│rrez Navarro
+Registro de usuario Susana Sep├║lveda Sanches
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Victor Manuel Arreola Carrasquillo
+Registro de usuario Yaretzi Bustos Xana
+Login AngelDaniel22@nearbpo.com
+Login Pilar3@hotmail.com
+Login Emiliano20@gmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login JoseDaniel_OcasioGalindo@nearbpo.com
+Login Jose_KamalKhalid@yahoo.com
+Creamos las variables para el usuario de prueba
+Login JoseEmilio.VillaVargas@corpfolder.com
+Registro de usuario Lucas Alva Casares
+Creamos las variables para el usuario de prueba
+Login Zoe79@gmail.com
+Registro de usuario Santiago L├│pez Olivares
+Registro de usuario Luis Gabino Esparza de Figueroa
+Login JoseAntonio80@gmail.com
+Login Emmanuel_BarreradeQuinterocruz@gmail.com
+Login AnaLuisa.MiramontesMarquez@yahoo.com
+Login Jimena_VelazquezNino83@hotmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Adela36@hotmail.com
+Login Clemente.TorrezNavarro@yahoo.com
+Login Susana4@gmail.com
+Registro de usuario Emilio Beltr├ín Barrios
+Registro de usuario Fernando Ornelas Mireles
+Registro de usuario Diana Ortiz Mel├®ndez
+Registro de usuario ├üngel Gabriel Caballero Yunta
+Login VictorManuel41@hotmail.com
+Login Yaretzi6@gmail.com
+Creamos las variables para el usuario de prueba
+Phase completed: Prueba rendimiento Login / Registro (index: 0, duration: 10s) 21:22:58(-0300)
+
+Phase started: Prueba rendimiento Login / Registro (index: 1, duration: 10s) 21:22:58(-0300)
+
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Jes├║s Quintero Campos
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Ximena Cort├®s Ledesma
+Registro de usuario Joaqu├¡n Meraz de Zambrana
+Registro de usuario Anita Cuellar Mateo
+Registro de usuario Santiago Badillo de B├®tancourt
+Registro de usuario Juan Carlos Nava Escalante
+Creamos las variables para el usuario de prueba
+Login LuisGabino79@corpfolder.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Vanessa Romero de Fajardo
+Login Fernando.OrnelasMireles37@yahoo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Mar├¡a de Jes├║s Rold├ín Sierra
+Creamos las variables para el usuario de prueba
+Registro de usuario Armando Apodaca Sandoval
+Creamos las variables para el usuario de prueba
+Registro de usuario Conchita Acevedo de Elizondo
+Registro de usuario Juana R├¡os Lucio
+Registro de usuario Ignacio Monta├▒ez Ocasio
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Benito Montero de Montalvo
+Registro de usuario Ivanna Bravo Valladares
+Registro de usuario Dulce Mar├¡a Salgado Mac├¡as
+Creamos las variables para el usuario de prueba
+Registro de usuario Catalina Verduzco Saiz
+Registro de usuario Amalia Garc├¡a Segura
+Creamos las variables para el usuario de prueba
+Registro de usuario Tadeo Saiz Sisneros
+Registro de usuario Elsa Mungu├¡a de Ulloa
+Creamos las variables para el usuario de prueba
+Registro de usuario ├ôscar Valent├¡n Xicoy
+Registro de usuario Mauricio Delagarza Sotelo
+Registro de usuario Nicol├ís Sevilla de Puente
+Registro de usuario Luis Miguel Mu├▒iz Arag├│n
+Creamos las variables para el usuario de prueba
+Registro de usuario Ariadna Moya T├®llez
+Creamos las variables para el usuario de prueba
+Registro de usuario Juan Col├│n Pineda
+Registro de usuario Leticia Ara├▒a Cant├║
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Elena Corona Acosta
+Login Anita34@corpfolder.com
+Registro de usuario Eloisa Uribe Aparicio
+Creamos las variables para el usuario de prueba
+Login Santiago.BadillodeBetancourt4@yahoo.com
+Creamos las variables para el usuario de prueba
+Login JuanCarlos_NavaEscalante86@hotmail.com
+Registro de usuario Mar├¡a Soledad Solorzano de Contreras
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Yolanda Perales Jim├®nez
+Creamos las variables para el usuario de prueba
+Login Santiago.LopezOlivares5@gmail.com
+Login Lucas.AlvaCasares@hotmail.com
+--------------------------------------
+Metrics for period to: 21:23:00(-0300) (width: 9.202s)
+--------------------------------------
+
+http.codes.200: ................................................................ 112
+http.downloaded_bytes: ......................................................... 27232
+http.request_rate: ............................................................. 15/sec
+http.requests: ................................................................. 129
+http.response_time:
+  min: ......................................................................... 9
+  max: ......................................................................... 1919
+  mean: ........................................................................ 448.8
+  median: ...................................................................... 333.7
+  p95: ......................................................................... 1224.4
+  p99: ......................................................................... 1790.4
+http.responses: ................................................................ 112
+plugins.metrics-by-endpoint./api/sessions/login.codes.200: ..................... 32
+plugins.metrics-by-endpoint./api/sessions/registro.codes.200: .................. 37
+plugins.metrics-by-endpoint./usuario.codes.200: ................................ 43
+plugins.metrics-by-endpoint.response_time./api/sessions/login:
+  min: ......................................................................... 147
+  max: ......................................................................... 1874
+  mean: ........................................................................ 640.7
+  median: ...................................................................... 507.8
+  p95: ......................................................................... 1274.3
+  p99: ......................................................................... 1790.4
+plugins.metrics-by-endpoint.response_time./api/sessions/registro:
+  min: ......................................................................... 238
+  max: ......................................................................... 1592
+  mean: ........................................................................ 468.1
+  median: ...................................................................... 376.2
+  p95: ......................................................................... 742.6
+  p99: ......................................................................... 963.1
+plugins.metrics-by-endpoint.response_time./usuario:
+  min: ......................................................................... 9
+  max: ......................................................................... 1919
+  mean: ........................................................................ 289.2
+  median: ...................................................................... 162.4
+  p95: ......................................................................... 1064.4
+  p99: ......................................................................... 1380.5
+vusers.completed: .............................................................. 32
+vusers.created: ................................................................ 50
+vusers.created_by_name.Sessions Flow (registro + login): ....................... 50
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 2534.5
+  max: ......................................................................... 4788.7
+  mean: ........................................................................ 3287.9
+  median: ...................................................................... 3197.8
+  p95: ......................................................................... 4147.4
+  p99: ......................................................................... 4583.6
+
+
+Login Emilio24@nearbpo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Juan Manuel Khalid Bustos
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Jesus.QuinteroCampos24@hotmail.com
+Login Diana.OrtizMelendez@hotmail.com
+Login AngelGabriel.CaballeroYunta@hotmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Alfredo Barrios Ord├│├▒ez
+Creamos las variables para el usuario de prueba
+Login Ximena.CortesLedesma@yahoo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login MariadeJesus_RoldanSierra@corpfolder.com
+Login Joaquin.MerazdeZambrana@hotmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Benito.MonterodeMontalvo23@nearbpo.com
+Login Vanessa.RomerodeFajardo52@corpfolder.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Conchita_AcevedodeElizondo23@gmail.com
+Creamos las variables para el usuario de prueba
+Login Juana_RiosLucio@corpfolder.com
+Creamos las variables para el usuario de prueba
+Login Armando_ApodacaSandoval@gmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Mar├¡a Nazario de Pagan
+Registro de usuario Tadeo Kranz sans Rojas
+Login Ignacio_MontanezOcasio85@yahoo.com
+Login Ivanna_BravoValladares42@hotmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login DulceMaria_SalgadoMacias@nearbpo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Amalia_GarciaSegura@nearbpo.com
+Registro de usuario Mercedes Carrero Loya
+Login Tadeo_SaizSisneros@yahoo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Login Mauricio61@nearbpo.com
+Creamos las variables para el usuario de prueba
+Login Ariadna36@gmail.com
+Creamos las variables para el usuario de prueba
+Login LuisMiguel_MunizAragon@hotmail.com
+Login Nicolas_SevilladePuente@yahoo.com
+Login Oscar40@gmail.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Antonio Aponte de Casillas
+Registro de usuario Fernando Javier Casares Zapata
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Israel Negr├│n Ochoa
+Registro de usuario Timoteo Sol├¡s Valadez
+Login Leticia.AranaCantu@yahoo.com
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Paola Zamudio Cortez
+Phase completed: Prueba rendimiento Login / Registro (index: 1, duration: 10s) 21:23:08(-0300)
+
+Creamos las variables para el usuario de prueba
+Registro de usuario Marcos Ponce Maya
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Creamos las variables para el usuario de prueba
+Registro de usuario Barbara Olvera Hurtado
+Creamos las variables para el usuario de prueba
+Login Catalina_VerduzcoSaiz@gmail.com
+Creamos las variables para el usuario de prueba
+Registro de usuario Jer├│nimo Galv├ín Arroyo
+Creamos las variables para el usuario de prueba
+Registro de usuario Jorge Luis Otero Ch├ívez
+Login JuanManuel_KhalidBustos@corpfolder.com
+Login Elsa_MunguiadeUlloa@corpfolder.com
+Login Elena_CoronaAcosta46@hotmail.com
+Login Juan_ColonPineda0@hotmail.com
+Registro de usuario Alfonso Verduzco de Vergara
+Login Tadeo.KranzsansRojas90@nearbpo.com
+Registro de usuario Teresa Sarabia de Mel├®ndez
+Login Yolanda_PeralesJimenez90@yahoo.com
+Registro de usuario Yolanda Batista Ledesma
+Login MariaSoledad.SolorzanodeContreras10@hotmail.com
+Login Maria_NazariodePagan19@corpfolder.com
+Registro de usuario Rebeca Navarrete M├®ndez
+Registro de usuario Ximena Guadalupe Rodr├¡quez Leiva
+Login Alfredo84@gmail.com
+Registro de usuario C├®sar Linares de Xenia
+Registro de usuario Joaqu├¡n Ybarra Lozano
+Registro de usuario Claudia Ortega de Amador
+Login Mercedes99@gmail.com
+Login FernandoJavier78@gmail.com
+Registro de usuario Caridad Espinoza Lovato
+Login Antonio26@hotmail.com
+Registro de usuario Dolores Soria Ben├¡tez
+Registro de usuario In├®s Serrano Acevedo
+Registro de usuario Leonor Rasc├│n Serrato
+Login Barbara_OlveraHurtado11@corpfolder.com
+Login JorgeLuis_OteroChavez@gmail.com
+Login Israel.NegronOchoa@nearbpo.com
+--------------------------------------
+Metrics for period to: 21:23:10(-0300) (width: 9.676s)
+--------------------------------------
+
+http.codes.200: ................................................................ 107
+http.downloaded_bytes: ......................................................... 26605
+http.request_rate: ............................................................. 21/sec
+http.requests: ................................................................. 193
+http.response_time:
+  min: ......................................................................... 77
+  max: ......................................................................... 6259
+  mean: ........................................................................ 2891.7
+  median: ...................................................................... 2618.1
+  p95: ......................................................................... 4867
+  p99: ......................................................................... 5487.5
+http.responses: ................................................................ 107
+plugins.metrics-by-endpoint./api/sessions/login.codes.200: ..................... 30
+plugins.metrics-by-endpoint./api/sessions/registro.codes.200: .................. 38
+plugins.metrics-by-endpoint./usuario.codes.200: ................................ 39
+plugins.metrics-by-endpoint.response_time./api/sessions/login:
+  min: ......................................................................... 1144
+  max: ......................................................................... 4599
+  mean: ........................................................................ 2758.7
+  median: ...................................................................... 2671
+  p95: ......................................................................... 4316.6
+  p99: ......................................................................... 4492.8
+plugins.metrics-by-endpoint.response_time./api/sessions/registro:
+  min: ......................................................................... 1016
+  max: ......................................................................... 5800
+  mean: ........................................................................ 3162.5
+  median: ...................................................................... 2618.1
+  p95: ......................................................................... 4965.3
+  p99: ......................................................................... 5168
+plugins.metrics-by-endpoint.response_time./usuario:
+  min: ......................................................................... 77
+  max: ......................................................................... 6259
+  mean: ........................................................................ 2730.2
+  median: ...................................................................... 2186.8
+  p95: ......................................................................... 5487.5
+  p99: ......................................................................... 5487.5
+vusers.completed: .............................................................. 30
+vusers.created: ................................................................ 120
+vusers.created_by_name.Sessions Flow (registro + login): ....................... 120
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 4987.6
+  max: ......................................................................... 12321.6
+  mean: ........................................................................ 8421.7
+  median: ...................................................................... 8352
+  p95: ......................................................................... 11274.1
+  p99: ......................................................................... 11501.8
+
+
+Login Timoteo_SolisValadez@hotmail.com
+Login Jeronimo.GalvanArroyo@hotmail.com
+Registro de usuario Brayan Dele├│n Negrete
+Registro de usuario Alfonso M├®ndez Chavarr├¡a
+Registro de usuario Jose Daniel Xana Carre├│n
+Login Alfonso41@corpfolder.com
+Login Marcos.PonceMaya75@gmail.com
+Login Joaquin.YbarraLozano@gmail.com
+Login Paola_ZamudioCortez@nearbpo.com
+Login XimenaGuadalupe_RodriquezLeiva@gmail.com
+Login Rebeca58@corpfolder.com
+Login Claudia_OrtegadeAmador@hotmail.com
+Registro de usuario Sergio Mart├¡nez Zambrano
+Registro de usuario Jorge Luis Gait├ín Arteaga
+Registro de usuario Claudia Mares Terrazas
+Registro de usuario Estela Espinosa Balderas
+Registro de usuario Alicia Riojas de Loya
+Registro de usuario Marcela Becerra Corona
+Registro de usuario Benjam├¡n Marroqu├¡n Anguiano
+Login Leonor.RasconSerrato47@hotmail.com
+Registro de usuario Ana Tello Cordero
+Registro de usuario Emilia Trevi├▒o Salas
+Registro de usuario Ana Mar├¡a Carrera Cant├║
+Registro de usuario Axel Mireles Cort├®s
+Registro de usuario Lorenzo Armas Krasnova
+Login Cesar.LinaresdeXenia@yahoo.com
+Registro de usuario Sancho Karem Zambrana
+Registro de usuario Jaime Curiel Quintero cruz
+Registro de usuario Daniel Guevara Naranjo
+Registro de usuario Gerardo Fonseca Ochoa
+Login Caridad_EspinozaLovato@corpfolder.com
+Login Teresa24@gmail.com
+Registro de usuario ├üngel Gabriel Mac├¡as Mota
+Login Alfonso.MendezChavarria@corpfolder.com
+Login Yolanda_BatistaLedesma@hotmail.com
+Login Ines_SerranoAcevedo@yahoo.com
+Login Dolores5@corpfolder.com
+Registro de usuario Hugo Ontiveros Zarate
+Registro de usuario ├üngel Gabriel Koenig Khalid
+Registro de usuario ├üngel Gabriel Zayas Caldera
+Registro de usuario Vanessa Krasnova Delafuente
+Login Brayan.DeleonNegrete@nearbpo.com
+Login JoseDaniel43@hotmail.com
+Login Sergio.MartinezZambrano@gmail.com
+Login JorgeLuis.GaitanArteaga94@corpfolder.com
+Login Estela56@gmail.com
+Login Alicia.RiojasdeLoya@nearbpo.com
+Login Marcela_BecerraCorona@gmail.com
+Login Claudia_MaresTerrazas@corpfolder.com
+Login Ana.TelloCordero30@nearbpo.com
+Login Emilia.TrevinoSalas@hotmail.com
+Login Lorenzo.ArmasKrasnova41@corpfolder.com
+Login Axel84@corpfolder.com
+Login AnaMaria.CarreraCantu@hotmail.com
+Login Sancho_KaremZambrana76@hotmail.com
+Login Benjamin33@yahoo.com
+Login AngelGabriel.KoenigKhalid79@yahoo.com
+Login AngelGabriel.ZayasCaldera43@hotmail.com
+Login Hugo31@corpfolder.com
+Login Vanessa9@yahoo.com
+Login Jaime81@gmail.com
+Login Daniel_GuevaraNaranjo@hotmail.com
+Login Gerardo.FonsecaOchoa37@nearbpo.com
+Login AngelGabriel_MaciasMota@yahoo.com
+--------------------------------------
+Metrics for period to: 21:23:20(-0300) (width: 9.825s)
+--------------------------------------
+
+errors.ETIMEDOUT: .............................................................. 55
+http.codes.200: ................................................................ 116
+http.downloaded_bytes: ......................................................... 30167
+http.request_rate: ............................................................. 8/sec
+http.requests: ................................................................. 67
+http.response_time:
+  min: ......................................................................... 215
+  max: ......................................................................... 9955
+  mean: ........................................................................ 4328.2
+  median: ...................................................................... 2836.2
+  p95: ......................................................................... 9801.2
+  p99: ......................................................................... 9999.2
+http.responses: ................................................................ 116
+plugins.metrics-by-endpoint./api/sessions/login.codes.200: ..................... 38
+plugins.metrics-by-endpoint./api/sessions/registro.codes.200: .................. 43
+plugins.metrics-by-endpoint./usuario.codes.200: ................................ 35
+plugins.metrics-by-endpoint.response_time./api/sessions/login:
+  min: ......................................................................... 215
+  max: ......................................................................... 4791
+  mean: ........................................................................ 1926.2
+  median: ...................................................................... 1790.4
+  p95: ......................................................................... 3828.5
+  p99: ......................................................................... 4231.1
+plugins.metrics-by-endpoint.response_time./api/sessions/registro:
+  min: ......................................................................... 1089
+  max: ......................................................................... 5596
+  mean: ........................................................................ 2682.9
+  median: ...................................................................... 2416.8
+  p95: ......................................................................... 5168
+  p99: ......................................................................... 5272.4
+plugins.metrics-by-endpoint.response_time./usuario:
+  min: ......................................................................... 6420
+  max: ......................................................................... 9955
+  mean: ........................................................................ 8957.6
+  median: ...................................................................... 9416.8
+  p95: ......................................................................... 9999.2
+  p99: ......................................................................... 9999.2
+vusers.completed: .............................................................. 38
+vusers.failed: ................................................................. 55
+vusers.session_length:
+  min: ......................................................................... 8980.8
+  max: ......................................................................... 16996.9
+  mean: ........................................................................ 12720.2
+  median: ...................................................................... 12711.5
+  p95: ......................................................................... 15839.7
+  p99: ......................................................................... 16486.1
+
+
+--------------------------------------
+Metrics for period to: 21:23:30(-0300) (width: 3.702s)
+--------------------------------------
+
+http.codes.200: ................................................................ 23
+http.downloaded_bytes: ......................................................... 7586
+http.request_rate: ............................................................. 18/sec
+http.requests: ................................................................. 19
+http.response_time:
+  min: ......................................................................... 151
+  max: ......................................................................... 2978
+  mean: ........................................................................ 1020
+  median: ...................................................................... 757.6
+  p95: ......................................................................... 2465.6
+  p99: ......................................................................... 2893.5
+http.responses: ................................................................ 23
+plugins.metrics-by-endpoint./api/sessions/login.codes.200: ..................... 20
+plugins.metrics-by-endpoint./api/sessions/registro.codes.200: .................. 3
+plugins.metrics-by-endpoint.response_time./api/sessions/login:
+  min: ......................................................................... 151
+  max: ......................................................................... 1693
+  mean: ........................................................................ 757.5
+  median: ...................................................................... 632.8
+  p95: ......................................................................... 1686.1
+  p99: ......................................................................... 1686.1
+plugins.metrics-by-endpoint.response_time./api/sessions/registro:
+  min: ......................................................................... 2448
+  max: ......................................................................... 2978
+  mean: ........................................................................ 2769.7
+  median: ...................................................................... 2893.5
+  p95: ......................................................................... 2893.5
+  p99: ......................................................................... 2893.5
+vusers.completed: .............................................................. 20
+vusers.failed: ................................................................. 0
+vusers.session_length:
+  min: ......................................................................... 13224.5
+  max: ......................................................................... 15663.3
+  mean: ........................................................................ 14278.9
+  median: ...................................................................... 14332.3
+  p95: ......................................................................... 15526
+  p99: ......................................................................... 15526
+
+
+All VUs finished. Total time: 36 seconds
+
+--------------------------------
+Summary report @ 21:23:25(-0300)
+--------------------------------
+
+errors.ETIMEDOUT: .............................................................. 55
+http.codes.200: ................................................................ 363
+http.downloaded_bytes: ......................................................... 92215
+http.request_rate: ............................................................. 16/sec
+http.requests: ................................................................. 418
+http.response_time:
+  min: ......................................................................... 9
+  max: ......................................................................... 9955
+  mean: ........................................................................ 2443.4
+  median: ...................................................................... 1686.1
+  p95: ......................................................................... 9047.6
+  p99: ......................................................................... 9801.2
+http.responses: ................................................................ 363
+plugins.metrics-by-endpoint./api/sessions/login.codes.200: ..................... 120
+plugins.metrics-by-endpoint./api/sessions/registro.codes.200: .................. 121
+plugins.metrics-by-endpoint./usuario.codes.200: ................................ 122
+plugins.metrics-by-endpoint.response_time./api/sessions/login:
+  min: ......................................................................... 147
+  max: ......................................................................... 4791
+  mean: ........................................................................ 1596.8
+  median: ...................................................................... 1274.3
+  p95: ......................................................................... 3828.5
+  p99: ......................................................................... 4492.8
+plugins.metrics-by-endpoint.response_time./api/sessions/registro:
+  min: ......................................................................... 238
+  max: ......................................................................... 5800
+  mean: ........................................................................ 2158.4
+  median: ...................................................................... 2143.5
+  p95: ......................................................................... 4965.3
+  p99: ......................................................................... 5272.4
+plugins.metrics-by-endpoint.response_time./usuario:
+  min: ......................................................................... 9
+  max: ......................................................................... 9955
+  mean: ........................................................................ 3558.9
+  median: ...................................................................... 1652.8
+  p95: ......................................................................... 9801.2
+  p99: ......................................................................... 9999.2
+vusers.completed: .............................................................. 120
+vusers.created: ................................................................ 175
+vusers.created_by_name.Sessions Flow (registro + login): ....................... 175
+vusers.failed: ................................................................. 55
+vusers.session_length:
+  min: ......................................................................... 2534.5
+  max: ......................................................................... 16996.9
+  mean: ........................................................................ 9390.1
+  median: ...................................................................... 10201.2
+  p95: ......................................................................... 15218.6
+  p99: ......................................................................... 15839.7
