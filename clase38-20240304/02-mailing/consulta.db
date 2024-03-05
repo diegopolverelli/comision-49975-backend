@@ -1,0 +1,7 @@
+usuario juan
+password 12345    123 or 1=1 or (delete * from usuarios)
+
+query="select * from usuarios where user=+'usuario' and password=+'password'"
+client.exec(query)
+
+query="select * from usuarios where user=+'juan' and password=+'123 or 1=1'"
