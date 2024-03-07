@@ -1,0 +1,136 @@
+paths:
+  /api/users/:
+    get:
+      security:
+        - basicAuth: []
+        - cookieAuth: []
+      summary: Obtiene todos los usuarios
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Los usuarios fueron obtenidos OK desde la DB
+    post:
+      summary: Graba un usuario
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/createUser'
+      responses:
+        "201":
+          description: Usuario creado
+        "400":
+          description: Faltan datos}
+  /api/users/{userId}:
+    get:
+      summary: Obtiene todos los usuarios
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          description: Id usuario a buscar
+          schema:
+            type : string
+            # format: int64
+            # minimum: 1         
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Los usuarios fueron obtenidos OK desde la DB
+  /api/products/:
+    get:
+      summary: Obtiene todos los productos
+      tags:
+        - Products
+      responses:
+        "200":
+          description: Los productos fueron obtenidos OK desde la DB
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/Product'
+                # type: array
+                # items: 
+                #   type: string
+          # -----------------------------------------------------
+          # Links
+          # -----------------------------------------------------
+          links:
+            GetUserByUserId:   # <---- arbitrary name for the link
+              operationId: getUser
+              # or
+              # operationRef: '#/paths/~1users~1{userId}/get'
+              parameters:
+                userId: '$response.body#/id'
+              description: >
+                The `id` value returned in the response can be used as
+                the `userId` parameter in `GET /users/{userId}`.
+          # -----------------------------------------------------
+
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          readOnly: true
+        name:
+          type: string
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        stock:
+          type: integer
+        precio:
+          type: float
+        imagen:
+          type: image
+  requestBodies:
+    createUser:
+      type: object
+      properties:
+        first_name:
+          type: string
+          description: Nombre de usurio
+        last_name:
+          type: string
+          description: Apellido
+        email:
+          type: string
+          description: Correo del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+      example:
+        first_name: Diego
+        last_name: Polverelli
+        email: diego@hotmail.com
+        password: coder123          
+  securitySchemes:
+    basicAuth:     # <-- arbitrary name for the security scheme
+      type: http
+      scheme: basic
+    bearerAuth:            # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+      bearerFormat: JWT    # optional, arbitrary value for documentation purpose
+    cookieAuth:         # arbitrary name for the security scheme; will be used in the "security" key later
+      type: apiKey
+      in: cookie
+      name: JSESSIONID  # cookie name
+security:
+  - basicAuth: []  # <-- use the same name here
+  - bearerAuth: []  # <-- use the same name here
+  - cookieAuth: []
