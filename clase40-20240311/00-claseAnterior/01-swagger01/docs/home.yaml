@@ -1,0 +1,70 @@
+paths:
+  /:
+    get:
+      summary: Home Page
+      tags:
+        - Home Page
+      description: Home Page
+      # description: |
+      #   ```html
+      #   <!DOCTYPE html>
+      #   <html lang="en">
+      #   <head>
+      #       <meta charset="UTF-8">
+      #       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      #       <title>Home Page</title>
+      #   </head>
+      #   <body>
+      #       <h2>Practica Integradora:</h2>
+      #       <hr>
+      #       <form action="/api/sessions/login" method="post">
+      #           <div id="mensaje"></div>
+      #           <input type="email" name="email" placeholder="Ingrese su email">
+      #           <input type="password" name="password" placeholder="Contraseña">
+      #           <input type="text" name="navegador" value="ok" hidden>
+
+      #           <input type="submit" value="Ingresar">
+      #       </form>
+      #       <br><br>
+      #       <a href="/registro.html">Registro</a>
+
+      #       <script src="js/index.js"></script>
+      #   </body>
+      #   </html>
+      #   ```
+      produces: 
+        - "text/html"
+      responses:
+        "200":
+          description: "Home Page"
+          content:
+            text/html:
+              schema:
+                type: string
+                example: |
+                  ```html
+                  <!DOCTYPE html>
+                  <html lang="en">
+                  <head>
+                      <meta charset="UTF-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <title>Home Page</title>
+                  </head>
+                  <body>
+                      <h2>Practica Integradora:</h2>
+                      <hr>
+                      <form action="/api/sessions/login" method="post">
+                          <div id="mensaje"></div>
+                          <input type="email" name="email" placeholder="Ingrese su email">
+                          <input type="password" name="password" placeholder="Contraseña">
+                          <input type="text" name="navegador" value="ok" hidden>
+
+                          <input type="submit" value="Ingresar">
+                      </form>
+                      <br><br>
+                      <a href="/registro.html">Registro</a>
+
+                      <script src="js/index.js"></script>
+                  </body>
+                  </html>
+                  ```

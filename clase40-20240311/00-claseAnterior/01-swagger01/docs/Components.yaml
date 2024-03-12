@@ -1,0 +1,80 @@
+components:
+  schemas:
+    error1:
+      type: string
+      description: Faltan datos
+    error2:
+      type: string
+      description: usuario existente
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          # format: int64
+          # readOnly: true
+        first_name:
+          type: string
+        last_name:
+          type: string
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+      example:
+        _id: 60acc54545c8e82e0475200b
+        first_name: Diego
+        last_name: Polverelli
+        email: diego@hotmail.com
+        password: coder123          
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        stock:
+          type: integer
+        precio:
+          type: float
+        imagen:
+          type: image
+  requestBodies:
+    createUser:
+      type: object
+      properties:
+        first_name:
+          type: string
+          description: Nombre de usurio
+        last_name:
+          type: string
+          description: Apellido
+        email:
+          type: string
+          description: Correo del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+      example:
+        first_name: Diego
+        last_name: Polverelli
+        email: diego@hotmail.com
+        password: coder123          
+  securitySchemes:
+    basicAuth:     # <-- arbitrary name for the security scheme
+      type: http
+      scheme: basic
+    bearerAuth:            # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+      bearerFormat: JWT    # optional, arbitrary value for documentation purpose
+    cookieAuth:         # arbitrary name for the security scheme; will be used in the "security" key later
+      type: apiKey
+      in: cookie
+      name: JSESSIONID  # cookie name
+security:
+  - basicAuth: []  # <-- use the same name here
+  - bearerAuth: []  # <-- use the same name here
+  - cookieAuth: []

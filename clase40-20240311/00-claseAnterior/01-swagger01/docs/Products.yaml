@@ -1,0 +1,30 @@
+paths:
+  /api/products/:
+    get:
+      summary: Obtiene todos los productos
+      tags:
+        - Products
+      responses:
+        "200":
+          description: Los productos fueron obtenidos OK desde la DB
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/Product'
+                # type: array
+                # items: 
+                #   type: string
+          # -----------------------------------------------------
+          # Links
+          # -----------------------------------------------------
+          links:
+            GetUserByUserId:   # <---- arbitrary name for the link
+              operationId: getUser
+              # or
+              # operationRef: '#/paths/~1users~1{userId}/get'
+              parameters:
+                userId: '$response.body#/id'
+              description: >
+                The `id` value returned in the response can be used as
+                the `userId` parameter in `GET /users/{userId}`.
+          # -----------------------------------------------------

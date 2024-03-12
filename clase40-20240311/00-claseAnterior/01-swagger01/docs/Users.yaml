@@ -1,0 +1,74 @@
+paths:
+  /api/users/:
+    get:
+      security:
+        - basicAuth: []
+        - cookieAuth: []
+      summary: Obtiene todos los usuarios
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Los usuarios fueron obtenidos OK desde la DB
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  usuarios:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/User'
+    post:
+      summary: Graba un usuario
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/createUser'
+      responses:
+        "201":
+          description: Usuario creado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  usuarios:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/User'
+        "400":
+          description: Faltan datos
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/error1'
+                  - $ref: '#/components/schemas/error2'
+  /api/users/{userId}:
+    get:
+      summary: Obtiene todos los usuarios
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          description: Id usuario a buscar
+          schema:
+            type : string
+            # format: int64
+            # minimum: 1         
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Los usuarios fueron obtenidos OK desde la DB
+
+
