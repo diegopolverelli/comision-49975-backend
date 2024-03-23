@@ -1,0 +1,23 @@
+{
+  "name": "01-tsc-node01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./src/app.js",
+    "tsc": "tsc",
+    "tsc:dev":"tsc --watch",
+    "dev":"nodemon ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
